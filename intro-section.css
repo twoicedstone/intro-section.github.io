@@ -14,7 +14,7 @@ body {
 }
 
 .container {
-	width: 375px;
+	width: 100vw;
 	min-height: 100vh;
 	background-color: hsl(0, 0%, 100%);
 }
@@ -34,7 +34,7 @@ body {
 }
 
 #mobile-hero {
-	width: 375px;
+	width: 100vw;
 }
 
 #desktop-hero {
