@@ -1,0 +1,189 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- displays site properly based on user's device -->
+
+  <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
+  <link rel="stylesheet" href="intro-section.css">
+  <title>Frontend Mentor | Intro section with dropdown navigation</title>
+
+  
+</head>
+<body>
+  <main class="container">
+    <div class="top">
+      <div class="top-logo">
+        <div><img id="logo" src="./images/logo.svg" alt="logo" tabindex="0"></div>
+        <div><img id="menuIcon" src="./images/icon-menu.svg" alt="menu-icon"></div>               
+      </div>
+
+       <!--Desktop Navigator-->
+      
+       <nav id="nav">
+        <div class="featuresDesktop">
+          <div class="p-arrows">
+            <div>
+              <p tabindex="0">Features</p>
+            </div>
+            <div id="desktop-arrowDown1"><img src="./images/icon-arrow-down.svg" alt="arrow-down"></div>
+            <div id="desktop-arrowUp1"><img  src="./images/icon-arrow-up.svg" alt="arrow-up"></div>
+          </div>
+          
+          <div class="features-Desktopdropdown">
+            <div class="desktopFeatures">
+              <div>
+                <img src="./images/icon-todo.svg" alt="todo-icon">
+              </div>
+              <p>Todo List</p>
+            </div>
+            <div class="desktopFeatures">
+              <div>
+                <img src="./images/icon-calendar.svg" alt="calendar-icon">
+              </div>
+              <p>Calendar</p>
+            </div>
+            <div class="desktopFeatures">
+              <div>
+                <img src="./images/icon-reminders.svg" alt="reminder-icon">
+              </div>
+              <p>Reminder</p>
+            </div>
+            <div class="desktopFeatures">
+              <div>
+                <img src="./images/icon-planning.svg" alt="planning-icon">
+              </div>
+              <p>Planning</p>
+            </div>
+            </div>
+  
+        </div>
+
+        
+        <div class="companyDesktop">
+          <div class="p-arrows">
+            <div>
+              <p tabindex="0">Company</p>
+            </div>
+          <div><img id="desktop-arrowDown2" src="./images/icon-arrow-down.svg" alt="arrow-down"></div>
+          <div><img id="desktop-arrowUp2" src="./images/icon-arrow-up.svg" alt="arrow-up"></div>
+          </div>
+
+          <div class="company-Desktopdropdown">
+            <p>History</p>
+            <p>Our Team</p>
+            <p>Blog</p>
+          </div>
+        </div>
+
+        
+        
+        <div class="careersDesktop">
+          <p tabindex="0">Careers</p>
+        </div>
+
+        <div class="aboutDesktop">
+          <p tabindex="0">About</p>
+        </div>
+      </nav>
+
+                                                <!--Desktop Navigator-->
+
+      <div id="get-started">
+        <p class="login" tabindex="0">Login</p>
+      <div class="registerDesktop" tabindex="0">
+        <p>Register</p>
+      </div>
+        
+      </div>
+    
+    </div>
+
+       
+
+    <div class="info">
+      <picture>
+        <img id="desktop-hero" src="./images/image-hero-desktop.png" alt="hero-image" tabindex="0">
+        <img id="mobile-hero" src="./images/image-hero-mobile.png" alt="hero-image">
+      </picture>
+
+      <div class="article">
+        <article>
+          <h1 tabindex="0">Make remote work</h1>
+          <p tabindex="0">Get your team in sync, no matter your location. Streamline processes, 
+            create team rituals, and watch productivity soar.</p>
+        </article>
+        <button id="learnButton" tabindex="0">Learn more</button>
+  
+        <div class="partners">
+          <div><img src="./images/client-databiz.svg" alt="databiz-logo"></div>
+          <div><img src="./images/client-audiophile.svg" alt="audiophile-logo"></div>
+          <div><img src="./images/client-meet.svg" alt="meet-logo"></div>
+          <div><img src="./images/client-maker.svg" alt="maker-logo"></div>  
+        </div>
+      </div>
+      </div>
+      
+
+      
+  </main>
+
+          <!--side menu for mobile view-->
+
+          <div id="mobile-menu">
+            <div id="menuClose">
+              <img src="./images/icon-close-menu.svg" alt="close-menu">
+            </div>
+            
+            <div class="features">
+              <p>Features</p>
+              <div id="arrowDown1"><img src="./images/icon-arrow-down.svg" alt="arrow-down"></div>
+              <div id="arrowUp1"><img src="./images/icon-arrow-up.svg" alt="arrow-up"></div>
+            </div>
+      
+            <div class="features-Mobiledropdown">
+              <div class="featuresNavigator">
+                <img src="./images/icon-todo.svg" alt="todo-icon">
+                <p>Todo List</p>
+              </div>
+              <div class="featuresNavigator">
+                <img src="./images/icon-calendar.svg" alt="calendar-icon">
+                <p>Calendar</p>
+              </div>
+              <div class="featuresNavigator">
+                <img src="./images/icon-reminders.svg" alt="reminder-icon">
+                <p>Reminders</p>
+              </div>
+              <div class="featuresNavigator">
+                <img src="./images/icon-planning.svg" alt="planning-icon">
+                <p>Planning</p>
+              </div>
+              
+            </div>
+            <div class="company">
+              <p>Company</p>
+              <div id="arrowDown2"><img src="./images/icon-arrow-down.svg" alt="arrow-down"></div>
+              <div id="arrowUp2"><img src="./images/icon-arrow-up.svg" alt="arrow-up"></div>
+            </div>
+      
+            <div class="company-Mobiledropdown">
+              <p class="companyNavigator">History</p>
+              <p class="companyNavigator">Our Team</p>
+              <p class="companyNavigator">Blog</p>
+            </div>
+            <div class="careers">
+              Careers
+            </div>
+            <div class="about">
+              About
+            </div>
+      
+            <div class="login">Login</div>
+            <button class="register">Register</button>
+          </div>
+      
+                             <!--side menu for mobile view-->
+          
+  <script src="intro.js"> </script>
+</body>
+</html>
